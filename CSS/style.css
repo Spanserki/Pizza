@@ -1,0 +1,30 @@
+#Banner{
+    height: 76px;
+    background-color: rgba(0, 0, 0, 5);
+    padding: 30px, 70px, 30px, 70px;
+}
+
+#Banner h1{
+    float: left;
+    margin: 0;
+}
+
+#Banner nav {
+    top: 30px;
+    float: right;
+    position: relative;
+}
+
+#Banner nav ul li {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+
+#Banner nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
