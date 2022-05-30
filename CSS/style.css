@@ -10,7 +10,7 @@ body {
 
 #Banner{
     height: 76px;
-    background-color: rgba(0, 0, 0, 5);
+    background-color: rgba(0, 0, 0, .5);
     padding: 30px 70px 30px 70px;
 }
 
@@ -41,6 +41,10 @@ body {
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+#Sabores {
+    margin-top: 400px;
 }
 
 #Sabores h2 {
@@ -74,4 +78,14 @@ body {
 
 #Sabores .positivo {
     color: #87b50f;
+}
+
+#Cabeçalho a {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Cabeçalho p {
+    text-align: center;
 }
